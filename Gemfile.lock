@@ -1,12 +1,13 @@
 PATH
   remote: .
   specs:
-    mll (2.1.0)
+    mll (2.2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
+    rake (10.4.2)
     rspec (3.1.0)
       rspec-core (~> 3.1.0)
       rspec-expectations (~> 3.1.0)
@@ -26,4 +27,5 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.7)
   mll!
+  rake
   rspec (~> 3.1.0)
